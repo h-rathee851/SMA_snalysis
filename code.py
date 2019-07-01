@@ -1,4 +1,4 @@
-
+# Author : Harsh Rathee
 # coding: utf-8
 
 # In[3]:
@@ -46,6 +46,7 @@ plt.ylabel("Closing Value")
 plt.title("SMA Cross Over Analysis for NYSE: APAM over 3 years")
 # plt.clf()
 
+# Function to animate
 def animate(i):
     
     global SMA_50_tot , SMA_200_tot, is_50_up, was_50_up
